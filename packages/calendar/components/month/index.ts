@@ -11,6 +11,7 @@ export interface Day {
   type: string;
   text: number;
   bottomInfo?: string;
+  customStyle?: string;
 }
 
 VantComponent({
